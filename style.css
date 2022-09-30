@@ -1,0 +1,202 @@
+/* Reset CSS */            
+html, body,            
+ul, ol, li,            
+h1, h2, h3, h4, h5, h6, p, div {            
+  margin: 0;            
+  padding: 0;            
+}            
+body {          
+    font-family: "Lucida Grande";            
+}            
+
+li {            
+    list-style: none;            
+}       
+
+a {            
+    text-decoration: none;    
+    color: white;       
+}  
+
+/* Style */
+
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 100%;
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(img/img.jpg);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: rgba(34, 49, 52, 0.9);
+    top: 0;
+    position: fixed;
+    z-index: 9999;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    line-height: 65px;
+    text-align: center;
+    font-size: 15px;
+    width: 93px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all .5s;
+}
+
+.header-right a {
+    padding: 20px 25px;   
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.top-wrapper h1 {
+    opacity: .7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: .7;
+    margin-bottom: 3px;
+}
+
+.button p {
+    margin: 18px 0;
+}
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    opacity: .8;
+}
+.email {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.lesson-wrapper {
+    height: 580px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+}
+.heading {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #5f5d60;
+ 
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.icon-lesson {
+    position: relative;
+}
+
+.icon-lesson p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+.txtcontents {
+    width: 80%;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.message {
+    padding: 15px 40px;
+    border-radius: 4px;
+    background-color: #5dca88;
+    opacity: .8;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940 ;
+}
+
+.message:active {
+    background-color: #;
+    opacity: .8;
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.msg {
+    font-size: 12px;
+    color: #b3aeb5;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
